@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Styles/contact.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="particles-js"></div>
+    <script src="/JS/particles.js"></script>
+    <script src="/JS/app.js"></script>
+
+    <h1 class="logo">&lt; DEVLIT🔥&#47;&gt;</h1>
+
+    <div class="con">
+        <h1 style="color: black; text-align: center;">CONTACT US</h1>
+        <form method="post" action="sendemail.php">
+            <label for="name" style="color: black; text-align: center;">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email" style="color: black; text-align: center;">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="description" style="color: black; text-align: center;">Description:</label>
+            <textarea id="description" name="description" required></textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+
+</html>

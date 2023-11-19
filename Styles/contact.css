@@ -1,0 +1,68 @@
+body{
+    background-color: #001220;
+    overflow: hidden;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.con{
+    margin-top: 7%;
+    border: 2px solid;
+    height: 72vh;
+    width : 500px;
+    margin-left: 32% ;
+    border-radius: 5px;
+    z-index: 10;
+    background-color: rgba(232, 250, 250, 0.844);
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+}
+
+
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  z-index: 10;
+}
+
+textarea {
+  height: 150px;
+  z-index: 10;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+#particles-js{
+    position: absolute;
+    height: 100%;
+  }
+
+.logo{
+    display: inline;
+    color: white;
+    float: left;
+    position: absolute;
+    top: 0;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: 'Poppins', sans-serif;
+}

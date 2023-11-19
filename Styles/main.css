@@ -1,0 +1,98 @@
+body{
+  height: 100vh;
+  background-color: #001220;
+  overflow-y: hidden;
+}
+
+.bar {
+  color: white;
+  height: 70px;
+  width: 100%;
+  margin: 0%;
+  text-align: center;
+  align-items: center;
+}
+
+.bar h1 {
+  margin: 0%;
+  display: inline;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+}
+
+#main {
+  display: flex;
+  align-items: flex-start;
+  height: 434px;
+  margin-top: 105px;
+}
+
+#main-items {
+  padding-left: 5%;
+  position: relative;
+  z-index: 2;
+  
+}
+
+.main-items {
+  color: white;
+  font-size: 65px;
+  font-family: 'Bebas Neue', cursive;
+
+  display: block;
+  text-decoration: none;
+  transition: opacity 400ms ease;
+}
+
+
+#main-items:hover > .main-items {
+  opacity: 0.3;
+}
+
+#main-items:hover > .main-items:hover {
+  opacity: 1;
+}
+
+.para {
+  height: 100px;
+  width: 100px;
+  color: white;
+  position: absolute;
+  right: 0;
+  margin-top: 10px;
+  margin-right: 500px;
+  font-size: 50px;
+  text-align: justify;
+  opacity: 0.3;
+  font-family: 'Londrina Outline', cursive;
+}
+
+.copy{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  color: white;
+}
+
+#particles-js{
+  position: absolute;
+  height: 100%;
+}
+
+.social img{
+  height: 40px;
+  padding: 5px;
+
+  z-index: 100;
+}
+
+.social{
+  display: flex;
+  justify-content: center;
+  z-index: 100;
+}

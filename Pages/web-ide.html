@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/Styles/web.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+    <title>DevLit-Live Runner</title>
+    <script
+      src="https://kit.fontawesome.com/0635d36be2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div className="head">
+      <a href="/index.html">
+        <h1>&lt; DEVLIT🔥&#47;&gt;</h1>
+      </a>
+    </div>
+
+    <div className="container">
+      <div className="left">
+        <label
+          ><i className="fa-brands fa-html5" style="color: #fda817"></i> HTML</label
+        >
+        <code className="language-css">
+          <textarea
+            id="html-code"
+            onkeyup="run()"
+            placeholder="/*-------Your HTML Code Goes Here-------*/"
+          ></textarea>
+        </code>
+
+        <label
+          ><i className="fa-brands fa-css3-alt" style="color: #337eff"></i>
+          CSS</label
+        >
+        <textarea
+          id="css-code"
+          onkeyup="run()"
+          placeholder="/*-------Your CSS Code Goes Here-------*/"
+        ></textarea>
+
+        <label
+          ><i className="fa-brands fa-square-js" style="color: #e2fd17"></i>
+          JS</label
+        >
+        <textarea
+          id="javascript-code"
+          onkeyup="run()"
+          placeholder="/*-------Your JavaScript Code Goes Here-------*/"
+        ></textarea>
+      </div>
+      <div className="right">
+        <label
+          ><i className="fa-solid fa-code" style="color: #ffffff"></i> OUTPUT</label
+        >
+        <iframe id="output"></iframe>
+      </div>
+    </div>
+
+    <script src="/JS/logic.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+    <script src="https://{{cdn}}/prismjs@v1.x/components/prism-core.min.js"></script>
+    <script src="https://{{cdn}}/prismjs@v1.x/plugins/autoloader/prism-autoloader.min.js"></script>
+  </body>
+</html>

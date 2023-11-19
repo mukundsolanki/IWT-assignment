@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #001220;
+    overflow: hidden;
+}
+
+.coming{
+    width: 100%;
+    height: 100vh;
+    color: #f7770f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 45px;
+}
+
+#particles-js{
+    position: absolute;
+    height: 100vh;
+    background-position:center;
+}
+
+.dev{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 50px;
+}
